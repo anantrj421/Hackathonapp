@@ -1,0 +1,52 @@
+#info{
+    color: mediumblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+#pic{
+    float:left;
+    width: 20%;
+    height: 60%;
+    border:3px solid black;
+            }
+td{
+    font-weight: 600;
+padding: 16.7px;
+font-size: large;   
+border: 2px solid black;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+table{
+border-collapse: collapse;
+}
+#knw{
+font-weight: 500;
+}
+.data{
+border:2px solid brown;
+}
+th{
+    color:white;
+background-color: #4CAF50;
+border: 2px solid black;
+padding: 13px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body{
+    background-image: url("https://wallpapersite.com/images/wallpapers/flag-of-india-5120x2880-tricolour-flag-hd-5k-9124.jpg");
+   
+}

@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+    <script>
+    var name=document.getElementById("username").value;
+var pass=document.getElementById("password").value;
+var button=document.getElementById("button");
+function getd(name, pass){
+    if(name=="1inbr123" && pass=="1234")
+{
+
+}
+else{
+    console.log("error");
+    
+}
+}</script>
+    <style>
+      body{
+      background-color: #7be5c7
+  }
+  h2{
+      text-align : center;
+      font-size: 50px;
+      color: rgb(5, 19, 31);
+  }
+  form
+  {
+      margin: 20px auto;
+      width: 320px;
+      color: rgb(12, 1, 29);
+  }
+  input {
+      padding: 10px;
+      font-size: inherit;
+  }
+  input[type="text"]{
+      display: block;
+      margin-bottom: 25px;
+      width: 100%;
+      border: 2px solid rgb(0, 0, 0);
+  }input[type="password"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+}
+input[type="submit"]{
+    margin-left: 50px;
+    width: 244px;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    cursor: pointer;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}</style>
+<head>
+ <title>Form site</title>
+</head>
+<body>
+    <h1>Before election</h1>
+<form method="post" action="connect.php">
+Username : <input type="text" name="username"><br><br>
+Password : <input type="password" name="password"><br><br>
+<button><a href="http://localhost:8080/">Submit</a></button>
+</form>
+</body>
+</html>
